@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="branding">
+        <div class="logo">PricingLand</div>
+      </div>
+      <div class="menu-toggle">
+        <span class="menu-icon">&#9776;</span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Affordable Pricing for Your Business Needs</h1>
+      <p>Choose the plan that fits your requirements and budget.</p>
+    </section>
+    <hr/>
+    <br/>
+    <h2>Our Pricing Plans</h2>
+    <section class="pricing">
+      <!-- Currency and Unit Selection -->
+      <div class="selection-container">
+        <div class="currency-select">
+          <label for="currency">Currency:</label>
+          <select id="currency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="INR">INR</option>
+          </select>
+        </div>
+
+        <div class="unit-select">
+          <label for="unit">Unit:</label>
+          <select id="unit">
+            <option value="monthly">Monthly</option>
+            <option value="annually">Annually</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="pricing-toggle">
+        <span class="toggle-label">Monthly</span>
+        <label class="toggle-switch">
+          <input type="checkbox" id="pricing-toggle">
+          <span class="slider"></span>
+        </label>
+        <span class="toggle-label">Annually</span>
+      </div>
+
+      <div class="pricing-cards">
+        <div class="pricing-card">
+          <h3>Basic</h3>
+          <div class="price">
+            <span class="currency"></span>
+            <span class="amount">9</span>
+            <span class="duration">/ month</span>
+          </div>
+          <ul class="features">
+                <li>Up to 5 Users</li>
+                <li>1GB Storage</li>
+                <li>Basic Functionality</li>
+                <li>Email Support</li>
+                <li>Standard Security</li>
+                <li>99% Uptime Guarantee</li>
+          </ul>
+          <div class="plan-details">
+          </div>
+           <div class="plan-details">
+            </ul>
+          </div>
+          <button>Get Started</button>
+        </div>
+
+        <div class="pricing-card highlighted">
+          <h3>Pro</h3>
+          <div class="price">
+            <span class="currency"></span>
+            <span class="amount">19</span>
+            <span class="duration">/ month</span>
+          </div>
+          <ul class="features">
+            <li>Up to 25 Users</li>
+                <li>10GB Storage</li>
+                <li>Advanced Functionality</li>
+                <li>Live Chat Support</li>
+                <li>Enhanced Security</li>
+                <li>Multiple Integrations</li>
+                <li>99.9% Uptime Guarantee</li>
+          </ul>
+          <div class="plan-details">
+          </div>
+          <button>Get Started</button>
+        </div>
+
+        <div class="pricing-card">
+          <h3>Enterprise</h3>
+          <div class="price">
+            <span class="currency"></span>
+            <span class="amount">49</span>
+            <span class="duration">/ month</span>
+          </div>
+          <ul class="features">
+            <li>Unlimited Users</li>
+            <li>100GB+ Storage</li>
+            <li>Custom Development</li>
+            <li>Dedicated Account Manager</li>
+            <li>Advanced Security Protocols</li>
+            <li>Custom Integrations</li>
+            <li>99.99% Uptime Guarantee</li>
+          </ul>
+          <div class="plan-details">
+          </div>
+          <button>Get Started</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 PricingLand. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
